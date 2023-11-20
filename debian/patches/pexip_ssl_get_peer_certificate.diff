@@ -1,0 +1,13 @@
+Index: os-w3m/istream.c
+===================================================================
+--- os-w3m.orig/istream.c
++++ os-w3m/istream.c
+@@ -513,7 +513,7 @@ ssl_get_certificate(SSL * ssl, char *hos
+ 
+     if (ssl == NULL)
+ 	return NULL;
+-    x = SSL_get_peer_certificate(ssl);
++    x = SSL_get1_peer_certificate(ssl);
+     if (x == NULL) {
+ 	if (accept_this_site
+ 	    && strcasecmp(accept_this_site->ptr, hostname) == 0)

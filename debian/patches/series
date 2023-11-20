@@ -1,2 +1,3 @@
 0001-Update-German-message-catalogue.patch
 pexip_replace_md5.diff
+pexip_ssl_get_peer_certificate.diff
