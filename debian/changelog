@@ -1,6 +1,7 @@
 w3m (0.5.3+git20230121-2pexip1) pexip; urgency=medium
 
   * Prepare Pexip packaging
+  * Replace use of deprecated openssl MD5 function.
 
  -- Mark Hymers <mark.hymers@pexip.com>  Mon, 20 Nov 2023 14:39:19 +0000
 
